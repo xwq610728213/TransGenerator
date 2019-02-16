@@ -2,7 +2,9 @@
 A scala script for creating a LUBM-like assertion dataset with only transitive property
 
 # Description
-This script will generate a DIY LUBM-like n-triple dataset which only contains the assertions of transitive property lubm:subOrganisationOf. Each individual is named by **http://www.DepartmentY.UniversityX.edu/ResearchGroupZ** of which X,Y and Z are numbers generated automatically. In LUBM dataset, a department must be a sub-organization of a university and a group must be a sub-organization of a department. On the contrary, in the dataset created, we imagine there exists a hierarchy relation among the groups in each department belonging to a university and we ignore the relations among universities and departments.
+This script will generate a DIY LUBM-like n-triple dataset which only contains the assertions of transitive property lubm:subOrganisationOf. Each individual is named by **http://www.DepartmentY.UniversityX.edu/ResearchGroupZ** of which X,Y and Z are numbers generated automatically. 
+
+In LUBM dataset, a department must be a sub-organization of a university and a group must be a sub-organization of a department. On the contrary, in the dataset created, we imagine there exists a hierarchy relation among the groups in each department belonging to a university and we ignore the relations among universities and departments.
 
 Some parameters can be set up while using the generator. An example is offered below to run the generator with these parameters.
 
