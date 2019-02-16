@@ -11,4 +11,4 @@ Some parameters can be set up while using the generator. An example is offered b
 
 **--num-univ** means the number of universities appears in the dataset, **--max-depart-num** and **--min-depart-num** limit the number of department appearing in each university. From these settings we can determine the number of hierarchy structures in the dataset. **--max-depth** and **--min-depth** give us a tolerance of depth in each hierarchy structure, **--max-branches-num** and **--max-branches-num** show how many branches will be given to each node. **--is-tree** indicates the transitive data is of tree structure, without this option, all the structures are in form of a chain or a chain with some leaves connected to each node (Examples of these three structures are given below). Intuitively, **--path** helps us set the output path of the dataset.
 
-![][tree_chain_xchain_example.png]
+![][./tree_chain_xchain_example.png]
