@@ -1,4 +1,4 @@
-# creatChain
+# TransGenerator
 A scala script for creating a LUBM-like assertion dataset with only transitive property
 
 # Description
